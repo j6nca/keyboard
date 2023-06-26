@@ -30,6 +30,7 @@ qmk compile -kb clueboard/66/rev3 -km default
 I realized I would not be able to reuse the raw data I created earlier in `keyboard-layout-editor`, so I looked to port over my layout to qmk configuration.
 
 I forked the `qmk_firmware` repo to include my new layout & created a keyboard profile for myself, adding respective pins based on the rpi pico's pinout diagram.
+<br>
 ![rpi pico pinout diagram](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/rpi_pico_pinout.webp)
 ```
 qmk new-keyboard
