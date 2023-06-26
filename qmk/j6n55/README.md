@@ -47,3 +47,5 @@ The changes I made can be viewed [here](https://github.com/qmk/qmk_firmware/comp
 - OLED Display with QMK: https://www.youtube.com/watch?v=OJSOEStpPIo
 - Intro to handwired keyboards: https://www.youtube.com/watch?v=hjml-K-pV4E
 - QMK & VIA support: https://www.youtube.com/watch?v=7d5yzBOup9U
+- CAD generator for plate: http://www.keyboardcad.com/
+- another cad generator: http://builder.swillkb.com/
