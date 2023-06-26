@@ -1,7 +1,9 @@
-# j6n55
+# j6n55 (WIP)
 ## Background
 This document will outline the process I went through in building my very own keyboard from scratch.
 ## Goals
+- Smaller form-factor (<60%)
+- Hotswappable
 ## Parts & Cost
 | Part                   | Cost (CAD) |
 |------------------------|------------|
@@ -10,10 +12,11 @@ This document will outline the process I went through in building my very own ke
 | Soldering Kit          |            |
 | Switches (KTT Kang V3) | 25.87      |
 | Kaihl Hotswap Sockets  | 17.29      |
+| Keycaps                | 17.29      |
 | Total Cost (WIP)       | 56.11      |
 ## Layout
 I initially found [keyboard-layout-editor](http://www.keyboard-layout-editor.com/), where I viewed existing layouts and played around with creating my own layouts. For this project, my goal was to create a smaller form factor keyboard than my current 60%.
-
+![j6n55 keyboard layout](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/keyboard_wiring.png)
 ## Working with QMK
 ### Setup
 Setup of qmk was fairly straight-forward, following the available [documentation](https://docs.qmk.fm/#/newbs_getting_started).
@@ -26,7 +29,8 @@ qmk compile -kb clueboard/66/rev3 -km default
 ### QMK Configuration
 I realized I would not be able to reuse the raw data I created earlier in `keyboard-layout-editor`, so I looked to port over my layout to qmk configuration.
 
-I forked the `qmk_firmware` repo to include my new layout & created a keyboard profile for myself.
+I forked the `qmk_firmware` repo to include my new layout & created a keyboard profile for myself, adding respective pins based on the rpi pico's pinout diagram.
+![rpi pico pinout diagram](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/rpi_pico_pinout.webp)
 ```
 qmk new-keyboard
 ...
