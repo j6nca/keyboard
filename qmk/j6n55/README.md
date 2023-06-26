@@ -38,3 +38,7 @@ qmk new-keyboard
 qmk compile -kb handwired/j6n55 -km default
 ```
 The changes I made can be viewed [here](https://github.com/qmk/qmk_firmware/compare/master...j6nca:qmk_firmware:j6n55).
+
+## References
+- OLED Display with QMK: https://www.youtube.com/watch?v=OJSOEStpPIo
+- Intro to handwired keyboards: https://www.youtube.com/watch?v=hjml-K-pV4E
