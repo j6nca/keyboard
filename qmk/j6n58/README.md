@@ -1,4 +1,4 @@
-# j6n55 (WIP)
+# j6n58 (WIP)
 ## Background
 This document will outline the process I went through in building my very own keyboard from scratch.
 ## Goals
@@ -7,6 +7,7 @@ This document will outline the process I went through in building my very own ke
 - OLED Screen?
 - Volume Knob?
 - QMK/VIA support
+- Ortholinear
 ## Parts & Cost
 | Part                   | Cost (CAD) |
 |------------------------|------------|
@@ -20,7 +21,7 @@ This document will outline the process I went through in building my very own ke
 | Total Cost (WIP)       | 56.11      |
 ## Layout
 I initially found [keyboard-layout-editor](http://www.keyboard-layout-editor.com/), where I viewed existing layouts and played around with creating my own layouts. For this project, my goal was to create a smaller form factor keyboard than my current 60%.
-![j6n55 keyboard layout](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/keyboard_wiring.png)
+![j6n58 keyboard layout](https://github.com/j6nca/keyboard/blob/main/qmk/j6n58/diagrams/keyboard_wiring.png)
 ## Working with QMK
 ### Setup
 Setup of qmk was fairly straight-forward, following the available [documentation](https://docs.qmk.fm/#/newbs_getting_started).
@@ -39,9 +40,9 @@ I forked the `qmk_firmware` repo to include my new layout & created a keyboard p
 ```
 qmk new-keyboard
 ...
-qmk compile -kb handwired/j6n55 -km default
+qmk compile -kb handwired/j6n58 -km default
 ```
-The changes I made can be viewed [here](https://github.com/qmk/qmk_firmware/compare/master...j6nca:qmk_firmware:j6n55).
+The changes I made can be viewed [here](https://github.com/qmk/qmk_firmware/compare/master...j6nca:qmk_firmware:j6n58).
 
 ## References
 - OLED Display with QMK: https://www.youtube.com/watch?v=OJSOEStpPIo
