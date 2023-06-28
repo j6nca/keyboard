@@ -12,12 +12,13 @@ This document will outline the process I went through in building my very own ke
 | Part                   | Cost (CAD) |
 |------------------------|------------|
 | RPi Pico               | 12.95      |
-| Copper Wiring          |            |
+| Copper Wiring          | 11.99      |
 | Diodes                 | 14.68      |
-| Soldering Kit          |            |
+| Soldering Kit          | 19.99      |
 | Switches (KTT Kang V3) | 25.87      |
 | Kaihl Hotswap Sockets  | 17.29      |
 | Keycaps                |            |
+| 3D Printing            |            |
 | Total Cost (WIP)       | 56.11      |
 ## Layout
 I initially found [keyboard-layout-editor](http://www.keyboard-layout-editor.com/), where I viewed existing layouts and played around with creating my own layouts. For this project, my goal was to create a smaller form factor keyboard than my current 60%.
