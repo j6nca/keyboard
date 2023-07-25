@@ -45,9 +45,25 @@ qmk compile -kb handwired/j6n47 -km default
 ```
 The changes I made can be viewed [here](https://github.com/qmk/qmk_firmware/compare/master...j6nca:qmk_firmware:j6n47).
 
+
+
+Update: 23/06/30
+Went to the library to print the pcb plate! Had to tinker with the fill (make it much less dense than before) to get the print to fit the timeslot I had booked.
+![plate](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/plate.png)
+Additionally did a test fitting with some spare switches I had lying around.
+![fitting](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg)![pre-handwiring](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg)
+
 Update: 23/07/04
 After flashing the 
 I wanted the keyboard to also support VIA configuration (that way I won't need to reflash the mcu everytime I want to make changes), enabling support for VIA was surprisingly simple following a [guide from youtuber Joe Scotto](https://www.youtube.com/watch?v=7d5yzBOup9U).
+![via config](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/via.png)
+
+
+Update: 23/07/07
+Completed the soldering for the keyboard matrix and microcontroller
+![handwiring](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/handwiring.jpg)![handwiring2](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/handwiring2.jpg)
+
+Update: 23/
 
 ## References
 - OLED Display with QMK: https://www.youtube.com/watch?v=OJSOEStpPIo
